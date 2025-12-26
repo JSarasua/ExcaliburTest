@@ -1,0 +1,30 @@
+{
+  "name": "excaliburtest",
+  "version": "1.0.0",
+  "description": "This is the Excalibur Test README.",
+  "homepage": "https://github.com/JSarasua/ExcaliburTest#readme",
+  "bugs": {
+    "url": "https://github.com/JSarasua/ExcaliburTest/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JSarasua/ExcaliburTest.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "Test.js",
+  "scripts": {
+    "start": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "vite": "7.3.0"
+  },
+  "dependencies": {
+    "excalibur": "0.32.0",
+    "prettier": "^3.7.4"
+  }
+}
