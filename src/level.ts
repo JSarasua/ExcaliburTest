@@ -53,13 +53,7 @@ export class Level extends ex.Scene {
 		this.ground = new Ground(ex.vec(0, engine.screen.drawHeight - 64));
 		this.add(this.ground);
 
-		const topPipe = new Pipe(ex.vec(engine.screen.drawWidth, 150), "top");
-		this.add(topPipe);
-
-		const bottomPipe = new Pipe(ex.vec(engine.screen.drawWidth, 300), "bottom");
-		this.add(bottomPipe);
-
-		//this.pipeFactory.start();
+		this.add(this.startGameLabel);
 		this.showStartInstructions();
 
 		this.add(this.scoreLabel);
@@ -71,6 +65,8 @@ export class Level extends ex.Scene {
 		} else {
 			this.setBestScore(0);
 		}
+
+		//this.pipeFactory.stop();
 	}
 
 	override onActivate(): void {
