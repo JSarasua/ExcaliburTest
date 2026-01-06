@@ -1,7 +1,7 @@
 {
   "name": "excaliburtest",
-  "version": "1.0.0",
-  "description": "This is the Excalibur Test README.",
+  "version": "0.0.0",
+  "description": "",
   "homepage": "https://github.com/JSarasua/ExcaliburTest#readme",
   "bugs": {
     "url": "https://github.com/JSarasua/ExcaliburTest/issues"
@@ -10,16 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/JSarasua/ExcaliburTest.git"
   },
-  "license": "ISC",
+  "license": "",
   "author": "",
   "type": "module",
-  "main": "main.ts",
+  "main": "src/main.ts",
   "scripts": {
+    "dev": "vite",
     "start": "vite",
     "build": "tsc && vite build",
+    "lint": "eslint . && prettier --check **/*.ts **/*.js **/*.json",
+    "format": "eslint . --fix && prettier --write **/*.ts **/*.js **/*.json",
     "serve": "vite preview"
   },
   "devDependencies": {
+    "@types/node": "^25.0.3",
     "typescript": "5.9.3",
     "vite": "7.3.0"
   },

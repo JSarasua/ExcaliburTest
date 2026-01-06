@@ -1,9 +1,19 @@
 {
   "compilerOptions": {
-    // Other compiler options...
+    "target": "ESNext",
+    "useDefineForClassFields": true,
+    "module": "ESNext",
+    "lib": ["ESNext", "DOM"],
+    "moduleResolution": "Node",
+    "strict": true,
+    "skipLibCheck": true,
     "sourceMap": true,
-    "inlineSources": true
-    // Other compiler options...
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true
   },
-  // Other tsconfig fields (e.g., "include", "exclude")...
+  "include": ["./src"]
 }
