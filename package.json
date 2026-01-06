@@ -12,8 +12,8 @@
   },
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "Test.js",
+  "type": "module",
+  "main": "main.ts",
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",

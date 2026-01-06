@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    // Other compiler options...
+    "sourceMap": true,
+    "inlineSources": true
+    // Other compiler options...
+  },
+  // Other tsconfig fields (e.g., "include", "exclude")...
+}
