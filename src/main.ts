@@ -1,7 +1,7 @@
 // main.ts
 import * as ex from "excalibur";
-import { Level } from "./level";
-import { Resources } from "./resources";
+import { Level } from "./level.js";
+import { Resources } from "./resources.js";
 
 const game = new ex.Engine({
 	width: 400,

@@ -1,11 +1,9 @@
 // pipe-factory.ts
 import * as ex from "excalibur";
-import { Bird } from "./bird";
-import { Ground } from "./ground";
-import { Pipe } from "./pipe";
-import { Config } from "./config";
-import { Level } from "./level";
-import { ScoreTrigger } from "./score-trigger";
+import { Pipe } from "./pipe.js";
+import { Config } from "./config.js";
+import { Level } from "./level.js";
+import { ScoreTrigger } from "./score-trigger.js";
 
 export class PipeFactory {
 	private timer: ex.Timer;

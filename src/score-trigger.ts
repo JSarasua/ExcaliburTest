@@ -1,8 +1,8 @@
 // score-trigger.ts
 import * as ex from "excalibur";
-import { Config } from "./config";
-import { Level } from "./level";
-import { Resources } from "./resources";
+import { Config } from "./config.js";
+import { Level } from "./level.js";
+import { Resources } from "./resources.js";
 
 export class ScoreTrigger extends ex.Actor {
 	constructor(

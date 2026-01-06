@@ -1,7 +1,7 @@
 // ground.ts
 import * as ex from "excalibur";
-import { Resources } from "./resources";
-import { Config } from "./config";
+import { Resources } from "./resources.js";
+import { Config } from "./config.js";
 
 export class Ground extends ex.Actor {
 	groundSprite = Resources.GroundImage.toSprite();

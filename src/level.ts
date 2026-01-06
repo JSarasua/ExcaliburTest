@@ -1,11 +1,10 @@
 // level.ts
 import * as ex from "excalibur";
-import { Bird } from "./bird";
-import { Ground } from "./ground";
-import { Pipe } from "./pipe";
-import { PipeFactory } from "./pipe-factory";
-import { Config } from "./config";
-import { Resources } from "./resources";
+import { Bird } from "./bird.js";
+import { Ground } from "./ground.js";
+import { PipeFactory } from "./pipe-factory.js";
+import { Config } from "./config.js";
+import { Resources } from "./resources.js";
 
 export class Level extends ex.Scene {
 	random = new ex.Random();

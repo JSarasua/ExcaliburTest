@@ -1,11 +1,11 @@
 // bird.ts
 
 import * as ex from "excalibur";
-import { Ground } from "./ground";
-import { Pipe } from "./pipe";
-import { Config } from "./config";
-import { Level } from "./level";
-import { Resources } from "./resources";
+import { Ground } from "./ground.js";
+import { Pipe } from "./pipe.js";
+import { Config } from "./config.js";
+import { Level } from "./level.js";
+import { Resources } from "./resources.js";
 
 export class Bird extends ex.Actor {
 	playing = false;

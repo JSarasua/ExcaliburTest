@@ -1,6 +1,6 @@
 // pipe.ts
 import * as ex from "excalibur";
-import { Resources } from "./resources";
+import { Resources } from "./resources.js";
 
 export class Pipe extends ex.Actor {
 	constructor(
